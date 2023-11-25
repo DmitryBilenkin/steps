@@ -1,0 +1,12 @@
+.step-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+
+    width: 100%;
+};
+
+/* Не применяются стили */
+.step-item__delete-btn:hover{     
+    cursor: pointer;
+}

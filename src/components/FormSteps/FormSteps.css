@@ -1,0 +1,32 @@
+.stepsform{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+};
+
+.stepsform__control{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.stepsform__control-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 45px;
+    border: 2px solid rgb(40, 40, 40);
+    border-radius: 7px;
+    padding: 0 15px;
+
+};
+
+/* Не применяются стили */
+.stepsform__btn:hover{
+    cursor: pointer;
+}

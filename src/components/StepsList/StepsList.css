@@ -1,0 +1,19 @@
+.step-container{   
+    width: 100%;
+    min-height: 50px;
+
+    border: 2px solid black;
+    border-radius: 7px;
+
+    padding: 10px; 
+};
+
+
+/* Не применяются стили */
+.namesOfColumns{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+};
